@@ -37,7 +37,7 @@ public class HelloWorldModel {
 
     @PostConstruct
     protected void init() {
-        message = "\tHello World(Jenkins updated again)!\n";
+        message = "\tHello World(Jenkins updated again(7/3/19))!\n";
         message += "\tThis is instance: " + settings.getSlingId() + "\n";
         message += "\tResource type is: " + resourceType + "\n";
     }
